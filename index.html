@@ -7,42 +7,80 @@
     <title>Portifólio: Udison Abreu</title>
     <style>
 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rock+Salt&display=swap');
+
         body {
             font-family: Helvetica, sans-serif;
-            background-color: #F4EBD0
-            ;
+            background-color: #f5f5f5;
+            color: #2b2b2b;
+            font-size: 18px;
         }
 
-        h1 {
-            font-family: Times, serif
+        #h1-normal {
+            font-family: 'Rock Salt', cursive;
+            font-size: 4vw;
+            text-align: center;
+            margin: 0 0 0 -4%;
         }
 
+        #my-picture {
+            border-radius: 100%;
+            display: block;
+            margin: 3% auto 0 auto;
+            width: 25%;
+
+        }
+
+        #description {
+            text-align: center;
+        }
+
+        #h1-diferent {
+            font-family: 'Rock Salt', cursive;
+            font-size: 4vw;
+            text-align: center;
+            margin: -4.5% 0 0 -7%;
+            text-indent: 11%;
+            line-height: -100;
+        }
     </style>
 </head>
 <body>
-    <h1>
-        Udison Abreu
-    </h1>
+    
     
     <!-- Foto -->
 
-    <img src="./images/foto-udis0n.jpeg" alt="Foto do Udison Abreu" width="200" id="minhafoto">
+    <img id="my-picture" src="./images/foto-udis0n.jpeg" alt="Foto do Udison Abreu" width="200" id="minhafoto">
+
+
+    <h1 id="h1-normal">
+        Udison
+    </h1>
+    <h1 id="h1-diferent">
+        Abreu
+    </h1>
 
     <!-- Descrição -->
 
-    <p>
-        Sou o Udison, tenho 23 anos e nasci em São Paulo (SP), nos últimos 3 anos montei meu próprio negócio - uma tapeçaria -  e durante esse período aprendi muito sobre ter responsabilidade e autogestão.
+    <p id="description">
+        Sou o Udison, tenho 23 anos e nasci em <br>
+        São Paulo (SP), nos últimos 3 anos montei <br>
+        meu próprio negócio - uma tapeçaria - e <br>
+        durante esse período aprendi muito sobre<br>
+        ter responsabilidade e autogestão.
         <br>
         <br>
-        Ao longo desse período pude descobrir qual é a minha verdadeira paixão, - ser dev - e atualmente estou atrás dela, como  <strong>estudante de desenvolvimento web full-stack na Trybe.</strong>
+        Ao longo desse período pude descobrir qual<br>
+        é a minha verdadeira paixão, - ser dev - e<br>
+        atualmente estou atrás dela, como estudante<br>
+        de desenvolvimento web full-stack na Trybe.
     </p>
     
-    <hr>
     <br>
 
     <!-- Índice -->
     
-    <h3>
+    <h3 style="clear: both;">
         <ol>
             <li><a href="#hab">Lista de Habilidades</a></li>
             <li><a href="#ted">Para Sair do Tédio</a></li>
