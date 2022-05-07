@@ -13,29 +13,17 @@
             font-family: Helvetica, sans-serif;
             background-color: #f5f5f5;
             color: #2b2b2b;
-            font-size: 18px;
+            font-size: 16px;
         }
 
-        #h1-normal {
+        #h1-up {
             font-family: 'Rock Salt', cursive;
             font-size: 4vw;
             text-align: center;
             margin: 0 0 0 -4%;
         }
 
-        #my-picture {
-            border-radius: 100%;
-            display: block;
-            margin: 3% auto 0 auto;
-            width: 25%;
-
-        }
-
-        #description {
-            text-align: center;
-        }
-
-        #h1-diferent {
+        #h1-down {
             font-family: 'Rock Salt', cursive;
             font-size: 4vw;
             text-align: center;
@@ -43,6 +31,22 @@
             text-indent: 11%;
             line-height: -100;
         }
+
+        #description {
+            text-align: center;
+        }
+
+        #my-picture {
+            border-radius: 100%;
+            display: block;
+            margin: 3% auto 0 auto;
+            width: 25%;
+        }
+
+        .font-rocksalt {
+            font-family: 'Rock Salt', cursive;
+        }
+
     </style>
 </head>
 <body>
@@ -50,24 +54,24 @@
     
     <!-- Foto -->
 
-    <img id="my-picture" src="./images/foto-udis0n.jpeg" alt="Foto do Udison Abreu" width="200" id="minhafoto">
+    <img id="my-picture" src="./images/foto-udis0n-amarelo.jpeg" alt="Foto do Udison Abreu" width="200" id="minhafoto">
 
 
-    <h1 id="h1-normal">
+    <h1 id="h1-up">
         Udison
     </h1>
-    <h1 id="h1-diferent">
+    <h1 id="h1-down">
         Abreu
     </h1>
 
     <!-- Descrição -->
 
     <p id="description">
-        Sou o Udison, tenho 23 anos e nasci em <br>
-        São Paulo (SP), nos últimos 3 anos montei <br>
+        <strong>Sou o Udison, tenho 23 anos e nasci em <br>
+        São Paulo (SP)</strong>, nos últimos 3 anos montei <br>
         meu próprio negócio - uma tapeçaria - e <br>
         durante esse período aprendi muito sobre<br>
-        ter responsabilidade e autogestão.
+        ter resiliencia e autogestão.
         <br>
         <br>
         Ao longo desse período pude descobrir qual<br>
@@ -79,8 +83,10 @@
     <br>
 
     <!-- Índice -->
+
+    </p>
     
-    <h3 style="clear: both;">
+    <h3 class="font-rocksalt">
         <ol>
             <li><a href="#hab">Lista de Habilidades</a></li>
             <li><a href="#ted">Para Sair do Tédio</a></li>
@@ -93,7 +99,7 @@
     <!-- Lista de Habilidades -->
     
     <br>
-    <h3>Hábilidades</h3>
+    <h3 class="font-rocksalt">Hábilidades</h3>
     <ul id="hab">
         <li><strong>Autogestão</strong></li>
         <li><strong>Resiliência</strong></li>
@@ -108,7 +114,7 @@
     <!-- Link site externo -->
     
     <br>
-    <h3>Saia do Tédio</h3>
+    <h3 class="font-rocksalt">Saia do Tédio</h3>
     <p id="ted">Para sair do tédio <a href="https://findtheinvisiblecow.com/" target="_blank">CLIQUE AQUI!</a></p>
     <br>
     <hr>
@@ -116,8 +122,8 @@
     <!-- Link Para a Foto -->
     
     <br>
-    <h3 id="sup">EU!</h3>
-    <p>Para ver <strong>meu rostinho lindo</strong> novamente <a href="#minhafoto">CLIQUE AQUI!</a></p>
+    <h3 id="sup" class="font-rocksalt">EU!</h3>
+    <p>Para ver <strong>meu rostinho lindo</strong> novamente <a href="#my-picture">CLIQUE AQUI!</a></p>
     <br>
     <hr>
     <br>
