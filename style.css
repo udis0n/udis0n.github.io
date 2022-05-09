@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rock+Salt&display=swap');
+
+
+/* PARTE 1*/
+
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #080808;
+    font-size: 18px;
+}
+
+.yellow-font {
+    color: #ffa700;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header-div {
+    border: 2px solid green;
+    padding:  0 0 3%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.perfilpicture-div {
+    size: 20%;
+}
+
+#my-picture {
+    border-radius: 100%;
+
+}
+
+.description-div {
+    width: 30%;
+    padding: 4%;
+    text-align: justify;
+}
+
+.header-elements {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2%;
+}
+
+
+/* PARTE 2 */
+
+.indice-main {
+    border: blue 2px solid;
+    background-color: #141313;
+    text-align: center;
+    padding: 1% 0 0;
+    color: #f5f5f5;
+}
+
+.indice-elements {
+    /* border: 2px solid red; */
+    display: inline-block;
+    padding: 1% 3%;
+    width: 25%;
+    margin-bottom: 2%;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.indice-elements:hover {
+    background-color: #ffa700;
+    color:#141313;
+}
+h2 {
+    font-size: 2em;
+}
+
+
+
+/* #description {
+    text-align: justify;
+    width: 40%;
+    position: absolute;
+    margin: 9% 0 0 50%;
+} */
+
+.texto-amarelo {
+    color: #ffa700;
+}
+
+.font-rocksalt {
+    font-family: 'Rock Salt', cursive;
+}
+
+
+.black-div {
+    background-color: #080808;
+    padding-bottom: 50px;
+    color: #f5f5f5;
+    text-decoration: none;
+}
