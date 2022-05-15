@@ -1,110 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rock+Salt&display=swap');
-
-
-/* PARTE 1*/
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(226, 226, 226);
+}
 
 body {
-    margin: 0;
-    font-family: Helvetica, sans-serif;
-    background-color: #f5f5f5;
-    color: #080808;
-    font-size: 18px;
+  background-color: rgb(42, 42, 42);
+  font-family: 'Poppins', sans-serif;
 }
 
-.yellow-font {
-    color: #ffa700;
+.text-red-color {
+  color: rgb(224, 56, 44);
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
+#nav-main {
+  background-color: rgb(42, 42, 42);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: 'Poppins', sans-serif;
+  position: fixed;
+  width: 100%;
 }
 
-.header-div {
-    border: 2px solid green;
-    padding:  0 0 3%;
-    text-align: center;
+#nav-logo {
+  font-size: 24px;
+  letter-spacing: 5px;
+  font-weight: bolder;
 }
 
-h1 {
-    font-family: 'Rock Salt', cursive;
-    font-size: 4rem;
-    text-align: center;
+#nav-links {
+  display: flex;
+  justify-content: space-between;
+  min-width: 35%;
+  list-style: none;
+  font-size: 14px;
 }
 
-.perfilpicture-div {
-    size: 20%;
+#nav-links a {
+  text-decoration: none;
+  letter-spacing: 3px;
 }
 
-#my-picture {
-    border-radius: 100%;
-
+#nav-links a:hover {
+  color: rgb(224, 56, 44);
 }
 
-.description-div {
-    width: 30%;
-    padding: 4%;
-    text-align: justify;
+/* PROFILE PICTURE */
+#header-main {
+  display: flex;
+  justify-content: space-around; 
+  background: rgba(42, 42, 42, 0.7) url(./images/mountain.jpg);
+  height: 700px;
+  background-size: cover;
+  background-position-y: -150px;
+  background-blend-mode: darken;
 }
 
-.header-elements {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 2%;
+#profile-picture {
+  position: absolute;
+  width: 250px;
+  margin-top: 200px;
+  border-radius: 100%;
+  padding: 5px;
+  background-color: rgb(224, 56, 44);
+  transition: 300ms;
 }
 
-
-/* PARTE 2 */
-
-.indice-main {
-    border: blue 2px solid;
-    background-color: #141313;
-    text-align: center;
-    padding: 1% 0 0;
-    color: #f5f5f5;
+#profile-picture:hover {
+  width: 260px;
 }
 
-.indice-elements {
-    /* border: 2px solid red; */
-    display: inline-block;
-    padding: 1% 3%;
-    width: 25%;
-    margin-bottom: 2%;
-    border-radius: 6px;
-    font-weight: bold;
-    text-transform: uppercase;
+#my-name {
+  position: absolute;
+  top: 450px;
+  font-size: 26px;
 }
 
-.indice-elements:hover {
-    background-color: #ffa700;
-    color:#141313;
-}
-h2 {
-    font-size: 2em;
-}
-
-
-
-/* #description {
-    text-align: justify;
-    width: 40%;
-    position: absolute;
-    margin: 9% 0 0 50%;
-} */
-
-.texto-amarelo {
-    color: #ffa700;
-}
-
-.font-rocksalt {
-    font-family: 'Rock Salt', cursive;
-}
-
-
-.black-div {
-    background-color: #080808;
-    padding-bottom: 50px;
-    color: #f5f5f5;
-    text-decoration: none;
+#main-description {
+  position: absolute;
+  top: 520px;
+  font-size: 18px;
 }
